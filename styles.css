@@ -1,0 +1,29 @@
+body{
+	margin-right: 250px;
+}
+.remove-margin-row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.users-list{
+	position: fixed;
+	background-color: #495B6C;
+	color: white;
+	right: 0;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	/*padding: 20px;*/
+}
+.online-user{
+	padding: 8px 10px 8px 10px;
+	font-size: 1em;
+	overflow: hidden;
+	border-bottom: 1px solid #415160;
+}
+.online-status{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: green;
+}
